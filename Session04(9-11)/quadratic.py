@@ -19,4 +19,4 @@ elif r == 0: #use an elif statement here, though we haven't technically covered 
 else:
     num_roots = 0
     print("No roots, discriminant is < 0.")
-    exit()
+
