@@ -2,7 +2,7 @@ import math
 import turtle
 import turtle
 
-Jack = turtle.Turtle()
+Jack = turtle.Turtle() 
 
 
 def polyline(t, n, length, angle):
