@@ -1,6 +1,5 @@
 import math
 import turtle
-import turtle
 
 Jack = turtle.Turtle() 
 
