@@ -28,5 +28,6 @@ def sixer():
         if three_con(word):
             print(word) 
 sixer()
+
         
 
