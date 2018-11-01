@@ -11,7 +11,7 @@
 class SiddyG:
     """Sid is a super-cool dude
     
-    attributes: favfoods, favmovies
+    attributes: favfoods, favmovies, favbooks
     """
     
     def __init__(self, favfoods = None, favmovies = None):
@@ -31,3 +31,4 @@ class SiddyG:
 
 Sid = SiddyG()
 Sid.put_in_favfoods("pie")
+print(Sid)
