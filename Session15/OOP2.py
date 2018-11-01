@@ -6,6 +6,11 @@ class Point:
     """Represents a point in 2-D space.
     attributes: x, y
     """
+    
+def init(self, a=0, b=0):
+    self.x = a
+    self.y = b
+
 my_point = Point()
 print(type(my_point))
 
@@ -59,36 +64,37 @@ def point_in_circle(point, Circle):
 
 class Rectangle:
     """Represents a rectangle. 
+    
     attributes: width, height, corner.
     """
     
-box = Rectangle()
-box.width = 100.0
-box.height = 200.0
-box.corner = Point()
-box.corner.x = 0.0
-box.corner.y = 0.0
+# box = Rectangle()
+# box.width = 100.0
+# box.height = 200.0
+# box.corner = Point()
+# box.corner.x = 0.0
+# box.corner.y = 0.0
 
-def rect_in_circle(Circle,Rectangle):
-    C=Circle
-    R=Rectangle
+# def rect_in_circle(Circle,Rectangle):
+#     C=Circle
+#     R=Rectangle
     
-    Corner1=R.corner
-    Corner2=R.corner
-    Corner3=R.corner
-    Corner4=R.corner
+#     Corner1=R.corner
+#     Corner2=R.corner
+#     Corner3=R.corner
+#     Corner4=R.corner
     
-    Corner2.x=Corner1.x+width
-    Corner4.y=Corner2.y-height
-    Corner3.x=Corner4.x-width
+#     Corner2.x=Corner1.x + width
+#     Corner4.y=Corner2.y - height
+#     Corner3.x=Corner4.x - width
     
     #Python isn't recognizing my attributes here though.
     
-    if point_in_circle(C,Corner1):
-        if point_in_circle(C,Corner2):
-            if point_in_circle(C,Corner3):
-                if point_in_circle(C,Corner4):
-                    return True
+    # if point_in_circle(C,Corner1):
+    #     if point_in_circle(C,Corner2):
+    #         if point_in_circle(C,Corner3):
+    #             if point_in_circle(C,Corner4):
+    #                 return True
                     
 #Section E: Couldn't get the prior function to run as well,
 #but the code made sense, however it's returning syntax errors
